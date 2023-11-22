@@ -34,8 +34,9 @@ const Navbar = () => {
           </button>
         </li>
       </ul>
-      {/* app section */}
 
+
+      {/* app section */}
       <div className="flex items-center font-semibold gap-3">
         <img src={appLogo} className="h-12" alt="app icon" />
         <div>

@@ -1,0 +1,40 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import BI from "../../../../assets/BannerImg/image 25.png";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+const HeroSection = () => {
+  return (
+    <div className="max-w-[80%] mx-auto py-6 flex justify-between items-center ">
+      <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div
+            style={{
+              backgroundImage: `url('${BI}')`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="w-full h-[500px] rounded-3xl flex justify-center items-center text-white"
+          >
+            <p className="text-5xl text-center font-extrabold">
+              WELCOME <br /> TO THE WORLD <br /> OF ACC
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+      </Swiper>
+    </div>
+  );
+};
+
+export default HeroSection;
