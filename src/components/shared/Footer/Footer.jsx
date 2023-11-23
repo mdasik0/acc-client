@@ -6,7 +6,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaWhatsappSquare, FaYo
 const Footer = () => {
   return (
     <footer className="max-w-[80%] mx-auto bg-stone-100 rounded-[40px]">
-      <div className="flex justify-center items-start py-20 gap-8 ">
+      <div className="flex justify-center items-start pt-20 pb-10 gap-8 ">
         {/* logo */}
         <div className="w-1/4">
           <img className="h-12" src={logo} alt="logo black" />
