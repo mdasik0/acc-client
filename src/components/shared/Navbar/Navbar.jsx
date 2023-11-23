@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className="max-w-[80%] mx-auto py-6 flex justify-between items-center">
+    <div className="max-w-[80%] mx-auto py-10 flex justify-between items-center">
       {/* logo */}
       <Link to={"/"}>
         <img src={logo} className="h-12 cursor-pointer" alt="logo" />
