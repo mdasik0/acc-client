@@ -23,7 +23,7 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-3xl flex justify-center items-center text-white"
+            className="w-full h-[500px] rounded-[50px] flex justify-center items-center text-white"
           >
             <p className="text-5xl uppercase w-[400px] leading-[60px] text-center font-extrabold">
             WELCOME TO THE WORLD OF ACC
@@ -38,7 +38,7 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-3xl flex justify-center items-center text-white"
+            className="w-full h-[500px] rounded-[50px] flex justify-center items-center text-white"
           >
             <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
             WELCOME TO THE WORLD OF ACC
@@ -53,7 +53,7 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-3xl flex justify-center items-center text-white"
+            className="w-full h-[500px] rounded-[50px] flex justify-center items-center text-white"
           >
             <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
             WELCOME TO THE WORLD OF ACC
@@ -68,7 +68,7 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-3xl flex justify-center items-center text-white"
+            className="w-full h-[500px] rounded-[50px] flex justify-center items-center text-white"
           >
             <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
               WELCOME TO THE WORLD OF ACC
