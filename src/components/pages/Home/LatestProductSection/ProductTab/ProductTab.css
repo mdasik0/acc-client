@@ -1,0 +1,12 @@
+.grid-container {
+
+    grid-template-columns: repeat(6, 2fr);
+    
+  }
+  
+  .grid-container > div:nth-child(-n+2) {
+    grid-column: span 3;
+  }
+  .grid-container > div:nth-child(n+3) {
+    grid-column: span 2;
+  }
