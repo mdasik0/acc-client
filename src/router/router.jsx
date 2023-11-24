@@ -5,6 +5,7 @@ import ProductDetails from "../components/pages/Home/LatestProductSection/Produc
 import DashBoard from "../components/layout/DashBoard/DashBoard";
 import DashboardPages from "../components/pages/Dashboard/DashboardPages";
 import AddProductPage from "../components/pages/AddProduct/AddProductPage";
+import AddHeroImage from "../components/pages/AddHeroImage/AddHeroImage";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         {
           path: "/dashboard/addProduct",
           element: <AddProductPage />
+        },
+        {
+          path: "/dashboard/addHeroImage",
+          element: <AddHeroImage />
         }
       ]
     }

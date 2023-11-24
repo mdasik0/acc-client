@@ -104,7 +104,7 @@ const DashBoard = () => {
           <li className=" ml-6 mr-10 ">
             <NavLink
               className={"py-[10px] px-[10px]"}
-              to={"/dashboard/addHeroSection"}
+              to={"/dashboard/addHeroImage"}
             >
               <IoImageOutline className="text-2xl " />
               <span className="font-bold">Add Hero Image</span>
