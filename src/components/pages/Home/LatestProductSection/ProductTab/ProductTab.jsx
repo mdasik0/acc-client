@@ -11,7 +11,7 @@ const ProductTab = () => {
   const AirConditioner = products.filter((product) => product.name == "Air Conditioner");
 
   useEffect(() => {
-    fetch("products.json")
+    fetch("/products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
