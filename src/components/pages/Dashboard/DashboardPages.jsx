@@ -1,10 +1,15 @@
+import HeroImageSection from "./HeroImageSection/HeroImageSection";
+import ProductSection from "./ProductSection/ProductSection";
+
+
 
 const DashboardPages = () => {
-    return (
-        <div>
-            dashboard page here
-        </div>
-    );
+  return (
+    <>
+      <HeroImageSection />
+      <ProductSection />
+    </>
+  );
 };
 
 export default DashboardPages;
