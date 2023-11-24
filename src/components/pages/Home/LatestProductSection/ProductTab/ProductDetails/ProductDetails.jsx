@@ -20,7 +20,7 @@ const ProductDetails = () => {
   console.log(productDetails);
 
   return (
-    <div className="max-w-[80%] mx-auto">
+    <div className="xl:max-w-[80%] max-w-[90%] mx-auto">
       <div className="flex gap-10 mt-10 mb-20">
         <div className="w-1/2 h-[500px] bg-stone-100 p-20 rounded-[40px]">
           <img
@@ -119,10 +119,21 @@ const ProductDetails = () => {
           </h2>
           <h2>Weight: {productDetails?.technicalSpecification?.weight}</h2>
         </div>
-        <div className={`${toggle === 3 ? "block" : "hidden"} flex items-center gap-6 my-10`}>
-          {(productDetails?.pictureGallery)?.map((img, index) => (
-            <div className="w-full h-[200px] bg-stone-100 rounded-3xl p-6" key={index}> 
-            <img className="w-full h-full object-contain"  src={img} alt="product image" />
+        <div
+          className={`${
+            toggle === 3 ? "block" : "hidden"
+          } flex items-center gap-6 my-10`}
+        >
+          {productDetails?.pictureGallery?.map((img, index) => (
+            <div
+              className="w-full h-[200px] bg-stone-100 rounded-3xl p-6"
+              key={index}
+            >
+              <img
+                className="w-full h-full object-contain"
+                src={img}
+                alt="product image"
+              />
             </div>
           ))}
         </div>

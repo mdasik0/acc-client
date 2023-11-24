@@ -1,14 +1,20 @@
 import logo from "../../../assets/logo/logo-black.png";
 import appleStore from "../../../assets/logo/apple.png";
 import playStore from "../../../assets/logo/android.png";
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaWhatsappSquare, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaWhatsappSquare,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="max-w-[80%] mx-auto bg-stone-100 rounded-[40px]">
-      <div className="flex justify-center items-start pt-20 pb-10 gap-8 ">
+    <footer className="xl:max-w-[80%] max-w-[90%] mx-auto bg-stone-100 rounded-[40px]">
+      <div className="flex md:flex-row flex-col justify-center items-start md:pt-20 py-10 p-5 md:pb-10  gap-8 ">
         {/* logo */}
-        <div className="w-1/4">
+        <div className="md:w-1/4 w-full">
           <img className="h-12" src={logo} alt="logo black" />
           <p className="text-sm font-medium mt-3 pr-3">
             ACC is a historical company founded in 1968 in the Belluno area,
@@ -67,7 +73,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className=" w-9/12 mx-auto border-stone-400" />
-      <p className="text-center font-semibold text-stone-700 py-6">© Copyright 2023, All Rights Reserved by Walton ACC Bangladesh</p>
+      <p className="text-center font-semibold text-stone-700 py-6">
+        © Copyright 2023, All Rights Reserved by Walton ACC Bangladesh
+      </p>
     </footer>
   );
 };

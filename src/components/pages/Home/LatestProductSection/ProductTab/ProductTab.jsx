@@ -7,8 +7,12 @@ const ProductTab = () => {
 
   const television = products.filter((product) => product.name == "Television");
   const fridge = products.filter((product) => product.name == "Refrigerator");
-  const washingMechine = products.filter((product) => product.name == "Washing Mechine");
-  const AirConditioner = products.filter((product) => product.name == "Air Conditioner");
+  const washingMechine = products.filter(
+    (product) => product.name == "Washing Mechine"
+  );
+  const AirConditioner = products.filter(
+    (product) => product.name == "Air Conditioner"
+  );
 
   useEffect(() => {
     fetch("/products.json")
@@ -17,8 +21,8 @@ const ProductTab = () => {
   }, []);
 
   return (
-    <div className="max-w-[80%] mx-auto">
-      <ul className="flex justify-center items-center gap-20 text-lg my-8 font-bold">
+    <div className="xl:max-w-[80%] max-w-[90%] mx-auto">
+      <ul className="flex flex-col md:flex-row justify-center items-center md:gap-4 xl:gap-20 gap-2 text-sm md:text-lg my-8 font-bold">
         <li
           onClick={() => setToggle(1)}
           className={`${
@@ -64,33 +68,49 @@ const ProductTab = () => {
       <div
         className={`${
           toggle === 1 ? "block" : "hidden"
-        } grid-container grid gap-10`}
+        } grid-container grid-cols-1 grid gap-10`}
       >
         {products.map((product) => (
           <Product key={product._id} product={product} />
         ))}
       </div>
 
-      <div className={`${toggle === 2 ? "block" : "hidden"} grid-container grid gap-10`}>
+      <div
+        className={`${
+          toggle === 2 ? "block" : "hidden"
+        } grid-container grid gap-10`}
+      >
         {AirConditioner.map((product) => (
           <Product key={product._id} product={product} />
         ))}
       </div>
 
-      <div className={`${toggle === 3 ? "block" : "hidden"} grid-container grid gap-10`}>
-      {fridge.map((product) => (
+      <div
+        className={`${
+          toggle === 3 ? "block" : "hidden"
+        } grid-container grid gap-10`}
+      >
+        {fridge.map((product) => (
           <Product key={product._id} product={product} />
         ))}
       </div>
 
-      <div className={`${toggle === 4 ? "block" : "hidden"} grid-container grid gap-10`}>
-      {television.map((product) => (
+      <div
+        className={`${
+          toggle === 4 ? "block" : "hidden"
+        } grid-container grid gap-10`}
+      >
+        {television.map((product) => (
           <Product key={product._id} product={product} />
         ))}
       </div>
 
-      <div className={`${toggle === 5 ? "block" : "hidden"} grid-container grid gap-10`}>
-      {washingMechine.map((product) => (
+      <div
+        className={`${
+          toggle === 5 ? "block" : "hidden"
+        } grid-container grid gap-10`}
+      >
+        {washingMechine.map((product) => (
           <Product key={product._id} product={product} />
         ))}
       </div>

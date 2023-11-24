@@ -9,3 +9,9 @@
 .swiper-pagination {
     margin-bottom: 80px;
 }
+
+@media only screen and (max-width: 760px) {
+    .swiper-pagination {
+        margin-bottom: 0px !important;
+    }
+}

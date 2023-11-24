@@ -6,7 +6,7 @@ import { Pagination } from "swiper/modules";
 import "./HeroSection.css";
 const HeroSection = () => {
   return (
-    <div className="max-w-[80%] mx-auto flex justify-between items-center ">
+    <div className="xl:max-w-[80%] max-w-[90%] mx-auto flex justify-between items-center ">
       <Swiper
         spaceBetween={30}
         pagination={{
@@ -23,9 +23,9 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-[40px] flex justify-center items-center text-white"
+            className="w-full h-[170px] sm:h-[300px] md:h-[400px] xl:h-[500px]  rounded-2xl md:rounded-[40px] flex justify-center items-center text-white"
           >
-            <p className="text-5xl uppercase w-[400px] leading-[60px] text-center font-extrabold">
+            <p className="md:text-5xl text-2xl uppercase py-6 md:py-0 md:leading-[60px] w-[400px] text-center font-extrabold">
               WELCOME TO THE WORLD OF ACC
             </p>
           </div>
@@ -38,9 +38,9 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-[40px] flex justify-center items-center text-white"
+            className="w-full md:h-[400px] xl:h-[500px] h-fit rounded-2xl md:rounded-[40px] flex justify-center items-center text-white"
           >
-            <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
+            <p className="md:text-5xl text-2xl uppercase py-6 md:py-0 md:leading-[60px] w-[400px] text-center font-extrabold">
               WELCOME TO THE WORLD OF ACC
             </p>
           </div>
@@ -53,9 +53,9 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-[40px] flex justify-center items-center text-white"
+            className="w-full md:h-[400px] xl:h-[500px] h-fit rounded-2xl md:rounded-[40px] flex justify-center items-center text-white"
           >
-            <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
+            <p className="md:text-5xl text-2xl uppercase py-6 md:py-0 md:leading-[60px] w-[400px] text-center font-extrabold">
               WELCOME TO THE WORLD OF ACC
             </p>
           </div>
@@ -68,9 +68,9 @@ const HeroSection = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-full h-[500px] rounded-[40px] flex justify-center items-center text-white"
+            className="w-full md:h-[400px] xl:h-[500px] h-fit rounded-2xl md:rounded-[40px] flex justify-center items-center text-white"
           >
-            <p className="text-5xl uppercase leading-[60px] w-[400px] text-center font-extrabold">
+            <p className="md:text-5xl text-2xl uppercase py-6 md:py-0 md:leading-[60px] w-[400px] text-center font-extrabold">
               WELCOME TO THE WORLD OF ACC
             </p>
           </div>
