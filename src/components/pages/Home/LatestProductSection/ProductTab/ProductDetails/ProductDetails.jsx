@@ -21,15 +21,15 @@ const ProductDetails = () => {
 
   return (
     <div className="xl:max-w-[80%] max-w-[90%] mx-auto">
-      <div className="flex gap-10 mt-10 mb-20">
-        <div className="w-1/2 h-[500px] bg-stone-100 p-20 rounded-[40px]">
+      <div className="flex xl:flex-row flex-col gap-10 mt-10 mb-20">
+        <div className="xl:w-1/2 w-full h-[500px] bg-stone-100 p-20 rounded-[40px]">
           <img
             className="w-full h-full object-contain"
             src={productDetails.image}
             alt=""
           />
         </div>
-        <div className="w-1/2 p-6">
+        <div className="xl:w-1/2 w-full p-6">
           <h2 className="text-4xl font-bold mb-6">{productDetails.name}</h2>
           <h2 className="w-8/12">{productDetails.description}</h2>
           {/* rating */}
@@ -68,7 +68,7 @@ const ProductDetails = () => {
       </div>
       <div className="mb-20">
         <h1 className="text-4xl font-bold mb-8">More Details</h1>
-        <ul className="flex gap-10 text-lg font-bold my-3 items-center border-b-2 pb-2">
+        <ul className="flex flex-wrap gap-10 text-lg font-bold my-3 items-center border-b-2 pb-2">
           <li
             onClick={() => setToggle(1)}
             className={`${
