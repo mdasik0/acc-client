@@ -3,7 +3,7 @@ import { MdAddCircleOutline, MdOutlineLogout } from "react-icons/md";
 import { IoImageOutline } from "react-icons/io5";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import logo from "../../../assets/logo/logo.png";
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import "./DashBoard.css";
 
 const DashBoard = () => {
@@ -89,7 +89,9 @@ const DashBoard = () => {
         ></label>
         <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
           <div className="w-full ml-6 pt-4">
-            <img className="object-contain h-12" src={logo} alt="logo" />
+            <Link to="/">
+              <img className="object-contain h-12" src={logo} alt="logo" />
+            </Link>
           </div>
           <br />
           <hr className="border-stone-400" />
