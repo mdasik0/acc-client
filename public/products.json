@@ -1,0 +1,118 @@
+[
+    {
+      "_id": "1",
+      "name": "Television",
+      "modelNo": "Amage view 55” smart television",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+      "features": {
+        "description": "This television boasts a high-resolution display that delivers stunning visuals, ensuring an immersive viewing experience. With an impressive battery life, you can enjoy extended hours of entertainment without interruption. The added stylus support enhances interactivity, allowing for a more engaging user experience. Whether you're watching movies, playing games, or browsing content, this television is designed to meet your entertainment needs. Discover a world of vivid colors and crisp details with the advanced display technology.\n\nMoreover, the sleek design and slim profile make it a stylish addition to any room. The silver and space gray color options provide versatility to match your aesthetic preferences. The technical specifications include dimensions of 9.7 inches and a lightweight build of 1.1 lbs, making it easy to install and move as needed. Powered by a quad-core processor, this television ensures smooth performance and responsive operation.\n\nBacked by a 2-year warranty, you can have confidence in the durability and reliability of this product. For any support or queries, reach out to our dedicated customer service at support@example.com."
+      },
+      "price": 499.99,
+      "rating": 4.5,
+      "colors": ["Silver", "Space Gray"],
+      "technicalSpecification": {
+        "dimensions": "9.7 inches",
+        "weight": "1.1 lbs",
+        "processor": "Quad-core"
+      },
+      "pictureGallery": ["https://i.ibb.co/nbHfbyL/television.png", "https://waltontv.com/wp-content/uploads/2022/02/W32D120-813mm-Walton-TV-min.jpg", "https://waltonbd.com/image/catalog/tv/smart-tv/WD32RS%20VERY%20NEW%20FEATURE/F6.jpg"],
+      "support": {
+        "warranty": "2 years",
+        "customerService": "support@example.com"
+      },
+      "image": "https://i.ibb.co/nbHfbyL/television.png"
+    },
+    {
+      "_id": "2",
+      "name": "Washing Mechine",
+      "modelNo": "Your future machine is here",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "features": {
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      },
+      "price": 549.99,
+      "rating": 4.2,
+      "colors": ["Black", "White"],
+      "technicalSpecification": {
+        "dimensions": "10.5 inches",
+        "weight": "1.2 lbs",
+        "processor": "Octa-core"
+      },
+      "pictureGallery": ["https://i.ibb.co/446dCwJ/wash.png", "https://aws-obg-image-lb-5.tcl.com/content/dam/brandsite/region/in/blog/pc/detail/blog-march/washing-machine-dimensions/banner.jpg", "https://vision.com.bd/images/detailed/154/New_Project__2_.jpg"],
+      "support": {
+        "warranty": "3 years",
+        "customerService": "support@tv2example.com"
+      },
+      "image": "https://i.ibb.co/446dCwJ/wash.png"
+    },
+    {
+      "_id": "3",
+      "name": "Refrigerator",
+      "modelNo": "Amage view 55” smart television",
+      "description": "Experience the next level of entertainment with our SuperVision 65” 4K Smart TV.",
+      "features": {
+        "description": "Immerse yourself in stunning visuals and enjoy a seamless viewing experience with our high-resolution display."
+      },
+      "price": 799.99,
+      "rating": 4.8,
+      "colors": ["Black", "Gold"],
+      "technicalSpecification": {
+        "dimensions": "11.2 inches",
+        "weight": "1.5 lbs",
+        "processor": "Hexa-core"
+      },
+      "pictureGallery": ["https://i.ibb.co/4sLN148/fridge.png", "https://d1pjg4o0tbonat.cloudfront.net/content/dam/midea-aem/in/refrigerators/multi-door-refrigerators/midea-544-l-frost-free-french-door-bottom-mount-refrigerator-glass-door-finish-mdrm648fgg22ind/gallery3.jpg/jcr:content/renditions/cq5dam.web.5000.5000.jpeg"],
+      "support": {
+        "warranty": "1 year",
+        "customerService": "support@supervisiontv.com"
+      },
+      "image": "https://i.ibb.co/4sLN148/fridge.png"
+    },
+    {
+      "_id": "4",
+      "name": "Air Conditioner",
+      "modelNo": "Amage view 55” smart television",
+      "description": "Elevate your home entertainment with the UltraVision 60” QLED TV, featuring cutting-edge display technology.",
+      "features": {
+        "description": "Enjoy vibrant colors, deep contrast, and a sleek design that complements any room."
+      },
+      "price": 899.99,
+      "rating": 4.9,
+      "colors": ["Silver", "Charcoal"],
+      "technicalSpecification": {
+        "dimensions": "10.8 inches",
+        "weight": "1.3 lbs",
+        "processor": "Octa-core"
+      },
+      "pictureGallery": ["https://i.ibb.co/QC15yCd/air-condtion.png", "https://thegoodguys.sirv.com/Content/Natalie%20Articles/Cooling/GettyImages-1368396356.jpg?profile=bce"],
+      "support": {
+        "warranty": "2 years",
+        "customerService": "support@ultravisiontech.com"
+      },
+      "image": "https://i.ibb.co/QC15yCd/air-condtion.png"
+    },
+    {
+      "_id": "5",
+      "name": "Television",
+      "modelNo": "Amage view 55” smart television",
+      "description": "Upgrade your viewing experience with the SmartLife 50” LED TV, packed with features for entertainment enthusiasts.",
+      "features": {
+        "description": "Experience crisp visuals, responsive performance, and a user-friendly interface for a delightful TV experience."
+      },
+      "price": 449.99,
+      "rating": 4.4,
+      "colors": ["White", "Rose Gold"],
+      "technicalSpecification": {
+        "dimensions": "9.5 inches",
+        "weight": "1.0 lbs",
+        "processor": "Quad-core"
+      },
+      "pictureGallery": ["https://i.ibb.co/19njQRZ/tv.png", "https://www.sony-asia.com/image/9c0c4d87aa69bb3cd330129fe1a2e22a?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9"],
+      "support": {
+        "warranty": "1.5 years",
+        "customerService": "support@smartlife.tv"
+      },
+      "image": "https://i.ibb.co/19njQRZ/tv.png"
+    }
+  ]
+  

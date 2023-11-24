@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
           {/* contact */}
           <h4 className="text-lg font-bold mb-3">Contact Us</h4>
-          <div className="border border-stone-400 rounded-lg pl-2 pr-6 my-3 py-2 w-fit">
+          <div className="border border-stone-400 rounded-lg pl-3 pr-6 my-3 py-2 w-fit">
             <input
               type="email"
               className="outline-none bg-transparent"
