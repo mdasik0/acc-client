@@ -19,16 +19,16 @@ const Navbar = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className="hover:text-stone-400 duration-500 cursor-pointer">
-            <Link > About us </Link>
+            <Link to={"/dashboard"}> About us </Link>
           </li>
           <li className="hover:text-stone-400 duration-500 cursor-pointer">
-            <Link > Request Service </Link>
+            <Link to={"/dashboard"}> Request Service </Link>
           </li>
           <li className="hover:text-stone-400 duration-500 cursor-pointer">
-            <Link > Find A Store </Link>
+            <Link to={"/dashboard"}> Find A Store </Link>
           </li>
           <li className="hover:text-stone-400 text-xl duration-500 cursor-pointer">
-            <Link >
+            <Link to={"/dashboard"}>
               {" "}
               <IoMdSearch />{" "}
             </Link>

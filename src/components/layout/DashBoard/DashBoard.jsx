@@ -13,7 +13,7 @@ const DashBoard = () => {
       <div className="drawer-content">
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex flex-col">
+          <div className="w-[1270px] flex flex-col">
             {/* Navbar */}
             <div className="w-full navbar border-b py-6 border-stone-400">
               <div className="flex-none lg:hidden">
@@ -59,9 +59,13 @@ const DashBoard = () => {
               </div>
             </div>
             {/* Page content here */}
+
+
             <div className="m-6">
               <Outlet />
             </div>
+
+
           </div>
           <div className="drawer-side">
             <label
@@ -69,7 +73,7 @@ const DashBoard = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu p-4 w-80 min-h-full bg-base-200">
+            <ul className="menu p-4 w-80 min-h-full ">
               {/* Sidebar content here */}
               <li>
                 <a>Sidebar Item 1</a>
@@ -83,9 +87,9 @@ const DashBoard = () => {
       </div>
       <div className="drawer-side">
         <label
-          htmlFor="my-drawer-2"
-          aria-label="close sidebar"
-          className="drawer-overlay"
+          htmlFor=""
+          aria-label=""
+          className=""
         ></label>
         <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
           <div className="w-full ml-6 pt-4">

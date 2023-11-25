@@ -3,8 +3,14 @@ import { MdOutlineAddPhotoAlternate } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./AddHeroImage.css";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+
 const AddHeroImage = () => {
   const [selectedImages, setSelectedImages] = useState([]);
+  const [headText, setHeadText] = useState("");
 
   const onSelectFile = (e) => {
     const selectedFiles = e.target.files; // Fix: Change 'file' to 'files'
@@ -18,6 +24,12 @@ const AddHeroImage = () => {
 
     console.log(selectedFiles);
   };
+
+  const handleHeadText = (e) => {
+    const selectedText = e.target.value;
+    setHeadText(selectedText)
+
+  }
 
   return (
     <>
@@ -46,6 +58,7 @@ const AddHeroImage = () => {
               Head Text (Maximum 8 words)
             </span>
             <input
+            onChange={handleHeadText}
               placeholder="Enter Your Head Text"
               type="text"
               className="outline-none w-[300px] border-none bg-transparent"
@@ -69,7 +82,40 @@ const AddHeroImage = () => {
             </div>
           ))}
         </div>
-        <div></div>
+
+                {
+                  selectedImages.length > 1 ? <p className="my-10">Show Preview</p> : ""
+                }
+
+        <div>
+        <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        
+        {
+          selectedImages.map((image, index) => <SwiperSlide key={index}>
+          <div
+            style={{
+              backgroundImage: `url('${image}')`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="w-full md:h-[400px] xl:h-[500px] bg-stone-900 h-fit rounded-2xl md:rounded-[40px] flex justify-center items-center text-white"
+          >
+            <p className="md:text-5xl text-2xl uppercase py-6 md:py-0 md:leading-[60px] w-[400px] text-center font-extrabold">
+        {headText}
+            </p>
+          </div>
+        </SwiperSlide>)
+        }
+      </Swiper>
+        </div>
       </div>
       <div className="flex gap-2 justify-end mt-10">
         <button className="px-3 py-2 rounded-lg text-white bg-[#BD2626]">
