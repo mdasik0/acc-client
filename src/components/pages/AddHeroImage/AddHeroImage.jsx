@@ -113,7 +113,7 @@ const AddHeroImage = () => {
             </p>
           </div>
         </SwiperSlide>)
-        }
+        } 
       </Swiper>
         </div>
       </div>
